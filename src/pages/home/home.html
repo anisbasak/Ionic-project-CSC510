@@ -1,11 +1,20 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar *navbar>
+    <ion-title>
+      Home
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  Please check native functions one by one.
-  <button border="1">Open Camera</button>
+<ion-content class="home">
+  <ion-card>
+    <ion-card-content>
+      Hello World, This is my camera app.
+      <br>
+      <button ion-button color="dark" (click)="takePicture()">Click to take a Picture</button>
+      <br>
+      Latest Picture:
+      <img [src]="base64Image" *ngIf="base64Image" />
+    </ion-card-content>
+  </ion-card>
 </ion-content>
