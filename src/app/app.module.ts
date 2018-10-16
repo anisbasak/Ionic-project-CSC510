@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+import { TableRenderPage } from '../pages/table-render/table-render';
+import { GpsPage } from '../pages/gps/gps';
 import { HomePage } from '../pages/home/home';
+import { ApiCallPage } from '../pages/api-call/api-call';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,9 +17,10 @@ import { Camera } from '@ionic-native/camera';
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    TableRenderPage,
+    GpsPage,
     HomePage,
+    ApiCallPage,
     TabsPage
   ],
   imports: [
@@ -28,9 +30,10 @@ import { Camera } from '@ionic-native/camera';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    TableRenderPage,
+    GpsPage,
     HomePage,
+    ApiCallPage,
     TabsPage
   ],
   providers: [
