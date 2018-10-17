@@ -14,5 +14,18 @@
 
 
 <ion-content padding>
-
+  <ion-card>
+    <ion-card-content>
+        <button ion-button color="dark" (click)="getCurrentLocation()">Click to Get Current Location</button>
+        <p>Latitude: {{lat}}</p>
+        <p>Longitude: {{lng}}</p>
+        <p>Accuracy: {{coordAccuracy}}</p>
+        <p>Altitude: {{altitude}}</p>
+        <p>Altitude Accuracy: {{altAccuracy}}</p>
+        <p>Heading: {{heading}}</p>
+        <p>Speed: {{speed}}</p>
+        <p>Data: {{data}}</p>
+        <p>Data 2: {{data2}}</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

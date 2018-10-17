@@ -11,7 +11,7 @@
     <ion-card-content>
       Hello World, This is my camera app.
       <br>
-      <button ion-button color="dark" (click)="openCamera()">Click to take a Picture</button>
+      <button ion-button color="dark" (click)="takePicture()">Click to take a Picture</button>
       <br>
       Latest Picture:
       <img [src]="base64Image" *ngIf="base64Image" />
