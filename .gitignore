@@ -62,3 +62,5 @@ typings/
 
 # files
 www/
+package-lock.json
+.sourcemaps/*

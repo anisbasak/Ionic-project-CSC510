@@ -7,12 +7,22 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>apiCall</ion-title>
+    <ion-title>API Call</ion-title>
   </ion-navbar>
 
 </ion-header>
 
-
 <ion-content padding>
-
+  <ion-card>
+    <ion-card-content>
+      Calling API and time taken to fetch and render
+      <br>
+      <button ion-button color="dark" (click)="callAPI()">CALL API</button>
+      <br>
+      Time taken for API in seconds: {{timeDiff}}<br>
+      List of Movies:<br>
+      {{movieList}}
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+
