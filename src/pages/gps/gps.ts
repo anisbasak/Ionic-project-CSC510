@@ -64,8 +64,8 @@ export class GpsPage {
 
     // from doc
     this.geolocation.getCurrentPosition({enableHighAccuracy:true}).then((resp) => {
-      this.lat = resp.coords.latitude;
-      this.lng = resp.coords.longitude;
+      // this.lat = resp.coords.latitude;
+      // this.lng = resp.coords.longitude;
       this.lat = resp.coords.latitude;
       this.lng = resp.coords.longitude;
       this.coordAccuracy = resp.coords.accuracy;
@@ -82,9 +82,9 @@ export class GpsPage {
    let watch = this.geolocation.watchPosition();
    watch.subscribe((data) => {
     // data can be a set of coordinates, or an error (if an error occurred).
-    this.data = data.coords.latitude
-    this.data2 = data.coords.longitude
-   });
+    this.data = data.coords.latitude;
+    this.data2 = data.coords.longitude;
+  },(error)=>{console.log(error);});
 
   }
  
