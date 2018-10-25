@@ -25673,3 +25673,64 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+page-table-render .datatable-header {
+  background: #a4c0d6;
+  padding: 1em 0 0 1em;
+}
+
+page-table-render .datatable-header-cell {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+page-table-render .datatable-body-row {
+  padding: 0;
+}
+
+page-table-render .datatable-row-even {
+  background: #f0f0f0;
+}
+
+page-table-render .datatable-row-odd {
+  background: white;
+}
+
+page-table-render .datatable-body-cell {
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+page-table-render .datatable-footer {
+  background: #dae2ea;
+  padding: 0 1em 0 1em;
+}
+
+page-table-render .datatable-footer .pager li {
+  padding: 0 1em !important;
+}
+
+page-table-render .datatable-footer .pager li a {
+  color: #444444;
+  text-decoration: none;
+}
+
+page-table-render .datatable-icon-done-all:before {
+  content: ">>";
+}
+
+page-table-render .datatable-icon-left:before {
+  content: "<";
+}
+
+page-table-render .datatable-icon-right:before {
+  content: ">";
+}
+
+page-table-render .datatable-icon-skip:before {
+  content: ">>";
+}
+
+page-table-render .datatable-icon-prev:before {
+  content: "<<";
+}
