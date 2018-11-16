@@ -1,0 +1,4 @@
+#Thu Nov 15 22:53:46 EST 2018
+base.0=C\:\\Users\\mukht\\Desktop\\SE_Ionic\\Ionic-project-CSC510\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

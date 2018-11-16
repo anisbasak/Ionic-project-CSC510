@@ -28,6 +28,7 @@
     "@ionic/pro": "2.0.3",
     "@ionic/storage": "2.2.0",
     "@swimlane/ngx-datatable": "^13.1.0",
+    "cordova-android": "7.1.1",
     "cordova-plugin-camera": "4.0.3",
     "cordova-plugin-geolocation": "4.0.1",
     "ionic-angular": "3.9.2",
@@ -47,6 +48,9 @@
       "cordova-plugin-geolocation": {
         "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
       }
-    }
+    },
+    "platforms": [
+      "android"
+    ]
   }
 }
