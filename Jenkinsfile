@@ -6,14 +6,14 @@ pipeline {
    stages {
       stage('NPM Setup') {
       steps {
-         sh 'npm install q --save'
+         sh 'npm install'
       }
    }
 
 
    stage('Android Build') {
    steps {
-      sh 'ionic cordova build android'
+      sh 'ionic serve'
    }
   }
 
