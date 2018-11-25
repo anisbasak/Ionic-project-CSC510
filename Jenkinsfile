@@ -6,7 +6,7 @@ pipeline {
    stages {
       stage('NPM Setup') {
       steps {
-         sh 'npm install'
+         sh 'npm install q --save'
       }
    }
 
