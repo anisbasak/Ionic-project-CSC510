@@ -10,11 +10,6 @@ pipeline {
       }
    }
 
-   stage('IOS Build') {
-   steps {
-      sh 'ionic cordova build ios --release'
-     } 
-  }
 
    stage('Android Build') {
    steps {
