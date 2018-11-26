@@ -13,7 +13,7 @@ pipeline {
 
    stage('Android Build') {
    steps {
-      sh 'sudo npm install -g cordova@7.0.0'
+    //   sh 'sudo npm install -g cordova@7.0.0'
       sh 'cordova platform rm android'
       sh 'cordova platform add android'
       sh 'cordova build android --release'
