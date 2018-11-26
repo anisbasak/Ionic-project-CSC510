@@ -13,7 +13,7 @@ pipeline {
 
    stage('Android Build') {
    steps {
-      sh 'cordova android build --release'
+      sh 'cordova build android --release'
     //   sh 'ionic serve'
    }
   }

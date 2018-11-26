@@ -1,0 +1,4 @@
+#Sun Nov 25 21:25:14 EST 2018
+base.0=/Users/anisbasak/Documents/CourseWork/SE/ionic/Ionic-project-CSC510/platforms/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
