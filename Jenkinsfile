@@ -13,6 +13,9 @@ pipeline {
 
    stage('Android Build') {
    steps {
+      sh 'npm install -g cordova@7.0.0'
+      sh 'cordova platform rm android'
+      sh 'cordova platform add android'
       sh 'cordova build android --release'
     //   sh 'ionic serve'
    }
